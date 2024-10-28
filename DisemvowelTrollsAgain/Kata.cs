@@ -5,6 +5,7 @@ public class Kata
 {
     public static string Disemvowel(string v)
     {
-        return v;
+        var vowels = "aeiou";
+        return vowels.Contains(v) ? "" : v;
     }
 }

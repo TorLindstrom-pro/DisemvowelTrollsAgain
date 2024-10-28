@@ -12,10 +12,19 @@ public class Tests
         Note: for this kata y isn't considered a vowel.
      */
 
-    [Test]
-    public void OnlyConsonants_IsReturnedAsIs()
+    [Theory]
+    [TestCase("d")]
+    [TestCase("qwrtp")]
+    public void OnlyConsonants_IsReturnedAsIs(string input)
     {
-        string result = Kata.Disemvowel("d");
-        Assert.That(result, Is.EqualTo("d"));
+        string result = Kata.Disemvowel(input);
+        Assert.That(result, Is.EqualTo(input));
+    }
+    
+    [Test]
+    public void SingleVowels_ReturnsEmptyString()
+    {
+        string result = Kata.Disemvowel("a");
+        Assert.That(result, Is.EqualTo(""));
     }
 }
