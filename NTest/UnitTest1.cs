@@ -27,4 +27,11 @@ public class Tests
         string result = Kata.Disemvowel("a");
         Assert.That(result, Is.EqualTo(""));
     }
+    
+    [Test]
+    public void OnlyVowels_ReturnsEmptyString()
+    {
+        string result = Kata.Disemvowel("uoiea");
+        Assert.That(result, Is.EqualTo(""));
+    }
 }

@@ -3,9 +3,9 @@ namespace DisemvowelTrollsAgain;
 
 public class Kata
 {
-    public static string Disemvowel(string v)
+    public static string Disemvowel(string input)
     {
         var vowels = "aeiou";
-        return vowels.Contains(v) ? "" : v;
+        return input.Any(vowels.Contains) ? "" : input;
     }
 }
