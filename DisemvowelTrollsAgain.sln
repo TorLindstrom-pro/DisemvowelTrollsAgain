@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisemvowelTrollsAgain", "DisemvowelTrollsAgain\DisemvowelTrollsAgain.csproj", "{8B980D45-5D92-4331-8CAD-CEC09C5BF199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTest", "NTest\NTest.csproj", "{2183D697-A9D2-4C8D-BDD2-C6A183F414C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTest", "XTest\XTest.csproj", "{5D752AE2-2228-4C92-9AD3-4B2C71DE5507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B980D45-5D92-4331-8CAD-CEC09C5BF199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B980D45-5D92-4331-8CAD-CEC09C5BF199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B980D45-5D92-4331-8CAD-CEC09C5BF199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B980D45-5D92-4331-8CAD-CEC09C5BF199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2183D697-A9D2-4C8D-BDD2-C6A183F414C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2183D697-A9D2-4C8D-BDD2-C6A183F414C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2183D697-A9D2-4C8D-BDD2-C6A183F414C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2183D697-A9D2-4C8D-BDD2-C6A183F414C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D752AE2-2228-4C92-9AD3-4B2C71DE5507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D752AE2-2228-4C92-9AD3-4B2C71DE5507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D752AE2-2228-4C92-9AD3-4B2C71DE5507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D752AE2-2228-4C92-9AD3-4B2C71DE5507}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
